@@ -14,8 +14,7 @@ hyperparameter-tuning pipeline across 15 algorithms.
 - After outlier and duplicate removal: 1,785 records
 - Three target labels: `Anxiety_Label`, `Stress_Label`, `Depression_Label`
 
-The raw data file (`Raw Data.csv.xlsx`) is not committed. Place it in `data/`
-before running the notebooks.
+The raw data file is included at `data/Raw_Data.csv`.
 
 ## Pipeline
 
@@ -58,12 +57,9 @@ target. Full per-target results are written out as CSV by the notebook.
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   ├── main.ipynb      # MAIN — complete pipeline, all 15 models
-│   └── EDA.ipynb      # earlier standalone EDA + preprocessing
-├── archive/
-│   └── EDA_v2.ipynb   # near-duplicate of the EDA notebook
+│   └── main.ipynb      # complete pipeline: preprocessing, EDA, all 15 models
 └── data/
-    └── (place Raw Data.csv.xlsx here)
+    └── Raw_Data.csv
 ```
 
 ## Running
