@@ -1,0 +1,33 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Data — keep raw dataset out of the repo unless your course requires it
+# (delete these lines if you DO want to commit the dataset)
+data/*.xlsx
+data/*.csv
+!data/.gitkeep
+
+# Generated outputs
+updated_dataset.csv
+*_model_results.csv
+*_tuned_results.csv
+comprehensive_analysis_summary.json
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
